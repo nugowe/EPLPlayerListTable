@@ -1,5 +1,7 @@
 ## This repo contains a Django Application that is used to query the squad list of the various teams participating in the English Premier League 2023-2024 Season.
 
+![Screenshot from 2024-01-21 21-17-28](https://github.com/nugowe/EPLPlayerListTable/assets/25004712/848e0848-6c03-4e3e-9a62-6658881402a6)
+
 ### BASIC USAGE:
 
 ## WITHOUT THE CONTAINER  | VIA MAKEFILE
