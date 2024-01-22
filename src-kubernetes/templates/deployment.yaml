@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: djangoeplsquadlist
+  name: djangoeplsquadlist
+  namespace: djangoeplsquadlist
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: djangoeplsquadlist
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: djangoeplsquadlist
+    spec:
+      containers:
+      - image: nosaugowe/djangoeplsquadlist
+        args:
+        - /bin/sh
+        - "-c"
+        - "echo 'STARTING THE SUPERVISOR BINARY SERVICE..'"
+        - "supervisord.conf /etc/supervisor/conf.d/supervisord.conf"
+        name: djangoeplsquadlist
+        ports:
+        - containerPort: 4444
+        resources: {}
+status: {}
