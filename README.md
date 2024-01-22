@@ -3,6 +3,9 @@
 ![Screenshot from 2024-01-21 21-17-28](https://github.com/nugowe/EPLPlayerListTable/assets/25004712/848e0848-6c03-4e3e-9a62-6658881402a6)
 
 ### BASIC USAGE:
+Simply check the boxes of your favorite Team and the entire squad list for this season would appear. Technically, it involves using a form to send a queryset to query a database at the backend.
+
+The query set is then rendered in the div section of the webpage for the App users consumption.
 
 ## WITHOUT THE CONTAINER  | VIA MAKEFILE
 
